@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS Y NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Orlando Micete Leon",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "gulp": "^5.0.0"
+  }
+}
